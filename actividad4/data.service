@@ -1,0 +1,9 @@
+[Unit]
+Description=Fecha actual y presentacion
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /pathFile/data.sh
+
+[Install]
+WantedBy=multi-user.target
